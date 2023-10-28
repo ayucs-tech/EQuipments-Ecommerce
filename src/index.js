@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import './App.css';
-import { createBrowserRouter, RouterProvider} from "react-router-dom";
+import { createHashRouter, RouterProvider} from "react-router-dom";
 import Products from './components/Products';
 import Login from './components/Login';
 import Signup from './components/Signup';
@@ -13,7 +13,7 @@ import AddProduct from './components/AddProduct';
 import Error from './components/Error';
 import ProductDetails from './components/ProductDetails';
 
-const appRouter= createBrowserRouter([
+const appRouter= createHashRouter([
   {
     path:"/",
     element:<App/>,
