@@ -8,10 +8,10 @@ export default function Contact() {
                 </div>
                 <div className="w-50 m-auto mb-4">
                     <h6>Contact us</h6>
-                    <ul className="list-group">
+                    <ul className="list-group ">
                         <li className="list-group-item" style={{ backgroundColor: "#e3f2fd" }}>Phone: 9616000016</li>
-                        <li className="list-group-item" style={{ backgroundColor: "#e3f2fd" }}>Email: ulala@hulala.com</li>
-                        <li className="list-group-item" style={{ backgroundColor: "#e3f2fd" }}>Address: Jaisinagar</li>
+                        <li className="list-group-item" style={{ backgroundColor: "#e3f2fd" }}>Email: admin@abc.com</li>
+                        <li className="list-group-item" style={{ backgroundColor: "#e3f2fd" }}>Address: Sagar M.P</li>
                     </ul>
                     
                 </div>

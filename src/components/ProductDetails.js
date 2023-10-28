@@ -22,7 +22,7 @@ dispatch(addItem(product));
           <p>{product.description}</p>
           <p><b>Price: </b>{product.price} $</p>
           <p>Product id: {id}</p>
-          <button className="btn btn-primary" onClick={()=> addProduct(product)}>Add to Cart</button>
+          <button className="btn btn-sm btn-dark mt-2" onClick={()=> addProduct(product)}>Add to Cart</button>
         </div>
         <img src={product.image} className="m-3 card-img-top" style={{ width: "12rem", height: "15rem" }} alt="..." />
       </div>
